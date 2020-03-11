@@ -1,0 +1,8 @@
+Insertion sort is based on the idea that one element from the input elements is consumed in each iteration to find its correct position.
+The first element in the array is assumed to be sorted. The second element is taken and stored in amemory location called "key". 
+The "key" is compared with the first element. If the first element is 
+greater than "key", then key is palced in fron the first elememt.The third element in the array is compared with the elements on the left.
+If there is no element smallest than it, then it is placed at the beginning of the array. The iteration occurs until the elements are 
+accurately sorted.
+Thus, in the worst case, each element is compared with the all the other elements in the sorted array. For n elements, there will be 
+n^2 comparisons. Therefore, the time complesity is O(n^2).
